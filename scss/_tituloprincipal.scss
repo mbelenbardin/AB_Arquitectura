@@ -1,13 +1,14 @@
 //@mixin e @include
 
 @mixin titulo{
-	font-size: 50pt;
+	font-size: 30pt;
+	letter-spacing: 0.3rem;
+	transform: rotate(-90deg);
+	transform-origin: 3rem 2rem;
+	margin-top: 20rem;
 	font-family: "Flux Architect Regular";
-	text-align: left;
-	text-shadow: 1px 0px 5px #666;
-	color: black;
-    margin-left: 2rem;	
-    position: relative;
+	text-shadow: 1px 0px 5px rgb(206, 206, 206);
+	color:rgb(255, 255, 255);
 }
 
 #titulorealizados h1{

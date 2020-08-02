@@ -158,40 +158,44 @@ footer {
   margin-bottom: 1rem; }
 
 #titulorealizados h1 {
-  font-size: 50pt;
+  font-size: 30pt;
+  letter-spacing: 0.3rem;
+  transform: rotate(-90deg);
+  transform-origin: 3rem 2rem;
+  margin-top: 20rem;
   font-family: "Flux Architect Regular";
-  text-align: left;
-  text-shadow: 1px 0px 5px #666;
-  color: black;
-  margin-left: 2rem;
-  position: relative; }
+  text-shadow: 1px 0px 5px rgb(206, 206, 206);
+  color:rgb(255, 255, 255)}
 
 .titulo_principal {
-  font-size: 50pt;
+  font-size: 30pt;
+  letter-spacing: 0.3rem;
+  transform: rotate(-90deg);
+  transform-origin: 3rem 2rem;
+  margin-top: 20rem;
   font-family: "Flux Architect Regular";
-  text-align: left;
-  text-shadow: 1px 0px 5px #666;
-  color: black;
-  margin-left: 2rem;
-  position: relative; }
+  text-shadow: 1px 0px 5px rgb(206, 206, 206);
+  color:rgb(255, 255, 255) }
 
 .contenedor__titulo__principal {
-  font-size: 50pt;
+  font-size: 30pt;
+  letter-spacing: 0.3rem;
+  transform: rotate(-90deg);
+  transform-origin: 3rem 2rem;
+  margin-top: 20rem;
   font-family: "Flux Architect Regular";
-  text-align: left;
-  text-shadow: 1px 0px 5px #666;
-  color: black;
-  margin-left: 2rem;
-  position: relative; }
+  text-shadow: 1px 0px 5px rgb(206, 206, 206);
+  color:rgb(255, 255, 255);}
 
 .titulocontacto {
-  font-size: 50pt;
+  font-size: 30pt;
+  letter-spacing: 0.3rem;
+  transform: rotate(-90deg);
+  transform-origin: 3rem 2rem;
+  margin-top: 20rem;
   font-family: "Flux Architect Regular";
-  text-align: left;
-  text-shadow: 1px 0px 5px #666;
-  color: black;
-  margin-left: 2rem;
-  position: relative; }
+  text-shadow: 1px 0px 5px rgb(206, 206, 206);
+  color:rgb(255, 255, 255) }
 
 /*@mixin de titulos en _proyectosrealizados.html*/
 #titulo_proyectss h1, #titulo_proyectss1 h1 h1 {
