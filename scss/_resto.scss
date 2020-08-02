@@ -1,0 +1,383 @@
+ 
+  /*Index - con flexbox*/
+
+  .presentacion {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center; }
+  
+  #tituloprincipal {
+	font-size: 22rem;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.2rem;
+	-webkit-text-stroke: 0.3rem black;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: 20rem; }
+  
+  #tituloprincipal2 {
+	color: black;
+	-webkit-text-stroke: 0.05rem white;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.3rem;
+	font-size: 30pt;
+	text-align: center;
+	position: relative;
+	top: 12.5rem; }
+  
+  #subtituloprincipal {
+	color: white;
+	opacity: 80%;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	font-size: 12pt;
+	font-family: "Flux Architect Regular";
+	position: relative;
+	top: 13.5rem;
+	text-align: center; }
+  
+  .grupoboton {
+	text-align: center;
+	position: relative;
+	top: 16rem;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	opacity: 60%; }
+  
+  .presentacion button {
+	height: 3rem;
+	width: 15rem;
+	background-color: black;
+	font-size: 9pt !important; }
+  
+  .grupoboton button a {
+	text-decoration: none;
+	color: white; }
+  
+  /*Proyectos - con GRID*/
+  #box_total {
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-template-rows: 12% 13% 50% 20% 5%;
+	grid-template-areas: "boxheader boxheader" "boxtituloprincipal boxder" "boxizq boxder" "boxboton boxder" "boxfooter boxder";
+	height: 100vh; }
+  
+  #area_header {
+	grid-area: boxheader;
+	margin: 0rem;
+	background-color: black; }
+  
+  #box_tituloprincipal {
+	grid-area: boxtituloprincipal;
+	align-items: flex-start; }
+  
+  #box_izq {
+	grid-area: boxizq;
+	text-align: right;
+	align-self: flex-start;
+	margin-left: 6rem;
+	margin-top: 3rem; }
+  
+  .boxsaliente {
+	position: relative;
+	width: auto;
+	right: -5rem; }
+  
+  #box_izq p {
+	ffont-family: 'Work Sans', sans-serif;
+	letter-spacing: 0.1rem;
+	font-size: 15pt;
+	color: white;
+	text-align: center; }
+  
+  #box_der {
+	grid-area: boxder;
+	background: #222222;
+	display: block;
+	justify-content: center;
+	align-content: center;
+	margin-right: 10rem;
+	margin-bottom: 4rem;
+	border-radius: 3rem; }
+  
+  .boxservicioimagen {
+	text-align: center;
+	bottom: 0;
+	align-self: center;
+	filter: grayscale(100%); }
+  
+  .boxservicioimagen img {
+	height: 6rem;
+	width: 6rem;
+	margin: 1rem; }
+  
+  .boxservicionombre {
+	color: grey;
+	font-size: 10pt;
+	padding: 1rem;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	top: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-family: "Flux Architect Regular"; }
+  
+  .boxservicios:hover .boxservicioimagen {
+	filter: grayscale(0%); }
+  
+  .boxservicios:hover .boxservicionombre {
+	color: white; }
+  
+  #box_boton {
+	grid-area: boxboton;
+	justify-self: center;
+	align-self: center; }
+  
+  .vermas {
+	background-color: #212121;
+	border: 0.3rem solid black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 0;
+	margin-left: 3rem;
+	width: 20em;
+	height: 5rem;
+	opacity: 60%; }
+  
+  .vermas a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none; }
+  
+  .vermas:hover {
+	transform: scale(1.1);
+	opacity: 100%; }
+  
+  .vermas a:hover {
+	text-decoration: none;
+	color: white; }
+  
+  #box_footer {
+	grid-area: boxfooter; }
+  
+  /*proyectos realizados - con grid y flexbox*/
+  #contenedor_realizados {
+	display: grid;
+	grid-template-rows: 15% 10% 30% 40% 5%;
+	grid-template-columns: 100%;
+	grid-template-areas: "header" "titulo" "acordeon" "footer";
+	height: 100vh; }
+  
+  #header_realizados {
+	grid-area: header; }
+  
+  #titulorealizados {
+	grid-area: titulo; }
+  
+  
+  #contenedorproyectos {
+	grid-area: acordeon; }
+  
+  .row {
+	width: 100%;
+	margin: 0rem; }
+  
+  
+ #titulo_proyectss {
+	text-align: center; }
+
+
+ 
+ .descripciontabla_botones{
+	text-align: center;
+}
+	  
+ .descripciontabla_botones img{
+	display: inline-block;
+	margin-right: 4rem;
+	margin-top: 10rem;
+	width: 6rem;
+	height: 5rem;	
+}
+  
+  table {
+	width: 90%;
+	margin-left: 5%; }
+  
+  .aspectostecnicos {
+	color: grey;
+	margin-top: 5rem;
+	font-size: 13pt;
+	text-decoration: underline;
+	letter-spacing: 0.2rem;
+	padding: 1rem;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif; }
+  
+  tr th {
+	background: grey;
+	color: white;
+	font-size: 10pt;
+	padding: 0.5rem;
+	letter-spacing: 0.2rem;
+	text-align: center;
+	width: 40rem; }
+  
+  tr td {
+	color: white;
+	text-align: center;
+	font-size: 10pt;
+	padding: 1rem; }
+  
+  
+  #titulo_proyectss1 {
+	text-align: center; }
+  
+  
+  /*nosotros - con GRID*/
+  #contenedor {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 15% 5% 70% 10%;
+	grid-template-areas: "header" "titulo" "presentacion" "footer";
+	height: 100vh; }
+  
+  
+  
+  
+  .contenedor__titulo{
+	grid-area: titulo; }
+  
+  .contenedor__main {
+	grid-area: presentacion;
+	margin: 1rem 6rem 1rem 6rem;
+	padding: 1rem;
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	height: 57rem;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: 100%;
+	align-items: center; }
+  
+  .contenedor__main__photo {
+	width: 90%; }
+  
+  .contenedor__main__description {
+	background: none;
+	font-size: 20px;
+	color: white;
+	margin-left: 2rem;
+	border-left: 0.2rem solid white; }
+  
+  .contenedor__main__contact {
+	margin-top: 5rem;
+	color: black;
+	font-size: 20px; }
+  
+  .contenedor__main__contact__ul__li{
+	list-style: none;
+	display: inline;
+	padding: 4rem;
+	margin: 3rem;
+	color: grey; }
+  
+  .contenedor__main__contact__button {
+	margin-top: 5rem; }
+  
+  .contenedor__footer{
+	grid-area: footer; }
+  
+  
+  
+  /*contacto*/
+  #contenedor_contacto {
+	display: grid;
+	grid-template-rows: 15% 10% 70% 5%;
+	grid-template-columns: 40% 60%;
+	grid-template-areas: "header header" "titulocontacto formulario" "boxcontacto formulario" "footer footer";
+	height: 100vh; }
+  
+  .header_area {
+	grid-area: header; }
+  
+  .titulocontacto {
+	grid-area: titulocontacto; }
+  
+  .contacto {
+	grid-area: boxcontacto; }
+  
+  .formulario {
+	grid-area: formulario; }
+  
+  .footer_area {
+	grid-area: footer; }
+  
+  
+  .contacto {
+	font-size: 15pt;
+	color: #E6E6E6;
+	margin: 2rem;
+	margin-top: 4rem;
+	align-self: center;
+	color: grey; }
+  
+  .contacto li {
+	list-style: none;
+	margin-bottom: 1.5rem;
+	font-family: 'Work Sans', sans-serif;
+	margin-left: 4rem; }
+  
+  .google-maps {
+	margin-left: 5rem;
+	margin-top: 3rem;
+	opacity: 80%; }
+  
+  .google-maps:hover {
+	opacity: 100%; }
+  
+  .formulario {
+	background: black;
+	border: white solid 0.1rem;
+	width: 70rem;
+	padding: 1rem;
+	color: white;
+	font-size: 13pt;
+	justify-self: center; }
+  
+  fieldset {
+	line-height: 3rem;
+	margin: 1rem;
+	padding: 1rem;
+	color: grey; }
+  
+  #nombreformulario {
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-family: "Flux Architect Regular";
+	letter-spacing: 0.2rem;
+	font-size: 18pt; }
+  
+  #rangohorario {
+	margin-left: 4rem; }
+  
+  #botonformulario {
+	margin-right: 1rem;
+	margin-top: 2rem;
+	width: 20rem;
+	height: 3rem;
+	font-size: 9pt;
+	float: right;
+	background-color: black;
+	color: grey;
+	border: 0,1rem solid white;
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none;
+	display: inline-block; }
+  
+  /*Media*/

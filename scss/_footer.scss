@@ -1,0 +1,33 @@
+/*footer*/
+
+footer {
+	background-color: transparent;
+	height: auto;
+	color: white;
+	float: right;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 8pt; }
+  
+  .fotterder ul li {
+	display: block;
+	margin-right: 1rem;
+	list-style: none; }
+  
+  .fotterder ul li img {
+	width: 3.5rem;
+	height: 3.5rem;
+    margin-bottom: 1rem; }
+    
+//footer en seccion nosotros con BEM
+
+.contenedor__fotter__derecha__ul__li {
+	display: block;
+	margin-right: 1rem;
+	list-style: none; }
+  
+  .contenedor__fotter__derecha__ul__li__a__img {
+	width: 3.5rem;
+	height: 3.5rem;
+	margin-bottom: 1rem; }

@@ -1,0 +1,27 @@
+//@mixin e @include
+
+@mixin titulo{
+	font-size: 50pt;
+	font-family: "Flux Architect Regular";
+	text-align: left;
+	text-shadow: 1px 0px 5px #666;
+	color: black;
+    margin-left: 2rem;	
+    position: relative;
+}
+
+#titulorealizados h1{
+	@include titulo
+}
+
+.titulo_principal{
+    @include titulo
+}
+
+.contenedor__titulo__principal{
+    @include titulo
+}
+
+.titulocontacto{
+    @include titulo
+}

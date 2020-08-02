@@ -1,0 +1,83 @@
+
+//@mixin e @include
+
+/*@mixin de titulos en _proyectosrealizados.html*/
+
+@mixin tituloproyectos{
+	padding: 2rem;
+	color: white;
+	font-size: 20pt;
+	letter-spacing: 0.2rem;	
+}
+
+#titulo_proyectss h1{
+	@include tituloproyectos
+}
+
+#titulo_proyectss1 h1{
+	@extend #titulo_proyectss;
+	color: black;
+}
+
+//anidación
+
+/*anidación lista _proyectosrealizados.html*/
+
+.contenedorpr1 ul{
+	margin-left: 5%;
+	margin-right: 10%;
+	margin-top: 3rem;
+	width: auto;
+    text-align: left;
+    
+    li{
+	text-decoration: none;
+	list-style: none;
+	margin-bottom: 3.5rem;
+	padding: 1rem;
+	color: grey;
+	font-size: 13pt;
+	letter-spacing: 0.2rem;
+	border-left: 1rem grey solid;
+    
+        a{
+		color:grey;
+    
+        a:hover{
+	    color: white;
+	    text-decoration: none;
+		}
+		}
+	}
+}
+
+//if 
+
+/*cambiar color de texto segun fondo B/N _proyectosrealizados.html*/
+
+@mixin fondoproyectos{
+	width: 100%;
+	padding-bottom: 3rem;
+	height: auto;
+	padding-top: 3rem;
+	padding-bottom: 3rem; 
+}
+
+
+.proyectoproyecto{
+	@include fondoproyectos;
+	background-color:black ;
+	color: white;
+}
+
+.proyectoproyecto1{
+	@include fondoproyectos;
+	background-color: white;
+	color: black;
+}
+
+.descripciontabla{
+	font-size: 12pt;
+	padding: 1rem;
+	text-align: center; 
+}
